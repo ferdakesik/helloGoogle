@@ -1,0 +1,80 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-03-26T16:11:13.489Z",
+        "line": 4,
+        "name": "I should be able to see results",
+        "description": "",
+        "id": "as-a-user--i-should-be-able-to-search-details;i-should-be-able-to-see-results",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5006294000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the google page",
+            "match": {
+              "location": "google.step_def.Google_Search_Step_Def.iam_on_the_google_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3859839000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter \"Iphone\" and enter search area",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Iphone\"",
+                  "offset": 8
+                }
+              ],
+              "location": "google.step_def.Google_Search_Step_Def.ienter_and_enter_search_area(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 30530000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I should be able to see the search results",
+            "match": {
+              "location": "google.step_def.Google_Search_Step_Def.I_should_be_able_to_see_the_search_result()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Google"
+          }
+        ]
+      }
+    ],
+    "name": "As a user, I should be able to search details",
+    "description": "",
+    "id": "as-a-user--i-should-be-able-to-search-details",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Google.feature",
+    "tags": [
+      {
+        "name": "@Google",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
